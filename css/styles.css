@@ -54,8 +54,6 @@
 .close-modal-svg {
   border: 1.3px solid #141414;
   line-height: 100%;
-  color: #141414;
-;
 }
 .modal-block1-list {
   list-style: none;
@@ -81,7 +79,7 @@
   margin-top: 39px;
   margin-bottom: 4px;
   white-space: nowrap;
-  overflow: hidden; 
+  overflow: hidden;
   text-overflow: ellipsis;
   font-family: "Epilogue";
   font-style: normal;
@@ -127,7 +125,7 @@
 }
 .modal-block2-title {
   display: block;
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -151,7 +149,7 @@
   border-radius: 8px;
 }
 .modal-block2-input::placeholder {
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -169,12 +167,12 @@
   margin-bottom: 20px;
 }
 input:invalid {
-	border-color: red;
+  border-color: red;
   border-radius: 10px;
 }
 input,
 input:valid {
-	border: 1px solid rgba(20, 20, 20, 0.5);
+  border: 1px solid rgba(20, 20, 20, 0.5);
 }
 .submit-modal-btn {
   font-family: "Epilogue";
@@ -184,11 +182,11 @@ input:valid {
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 18px 116px;
   width: 295px;
   min-height: 50px;
-  background: #1E2827;
+  background: #1e2827;
   border-radius: 8px;
   flex-direction: row;
   justify-content: center;
@@ -206,10 +204,13 @@ input:valid {
   margin: 0 auto;
 }
 .modal-bottom-link {
-  font-family:"Plus Jakarta Sans";
+  font-family: "Plus Jakarta Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.4);
+}
+.modal-bottom-text br {
+  display: none;
 }
