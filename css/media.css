@@ -1,0 +1,142 @@
+@media screen and (min-width: 375px) {
+  .modal {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .modal-block1-item-img {
+  background-image: url(../images/395tube-mob@2x.jpg);
+}
+  } 
+}
+
+/*  768   */
+@media screen and (min-width: 768px) {
+.modal {
+  max-width: 744px;
+  max-height: 670px;
+  padding:40px;
+}
+.close-modal-btn {
+  top: -32px;
+  right: -10px;
+  width: 24px;
+  height: 24px;
+  position:relative;
+  padding: 6px;
+}
+.close-modal-icon {
+  width: 12px;
+  height: 12px;
+}
+ .modal-block1 {
+  float: left;
+  width: 276px;
+  height: 375px;
+  margin-top: -40px;
+} 
+.modal-block1-list {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.modal-block1-item-img {
+  margin-top: 26px;
+  margin-bottom: 25px;
+  background-image: url(../images/395tube-tab.jpg);
+}
+.modal-block1-title {
+  margin-top: 14px;}
+
+.modal-block2 {
+  margin-top: -32px;
+  margin-right: -10px;
+  }
+.modal-block2-form {
+  max-width: 368px;
+  margin-left: 20px;
+}
+.modal-block2-label {
+  width: 100%;
+}
+.modal-block2-title {
+  font-size: 14px;
+  line-height: 1.29;
+  padding: 0;
+}
+.modal-block2-input {
+  width: 368px;
+}
+.modal-block2-input::placeholder {
+  font-size: 16px;
+  line-height: 1.12;
+}
+.comments {
+  max-width: 368px;
+  min-height: 166px;
+}
+.submit-modal-btn {
+  width: 368px;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .modal-block1-item-img {
+  background-image: url(../images/395tube-tab@2x.jpg);
+}
+  }
+}
+
+/*   1280  */
+@media screen and (min-width: 1280px) {
+.modal {
+  max-width: 904px;
+  max-height: 694px;
+}
+.modal-block1-item-img {
+  background-image: url(../images/395tube-desk.jpg);
+}
+  .modal-block2 {
+  height: 614px; 
+  }
+.modal-block2-form {
+  max-width: 508px;
+  margin-left: 40px;
+  height: 100%;
+}
+.modal-block2-input {
+  width: 508px;
+}
+.modal-block2-input-wrap {
+  padding-bottom: 20px;
+}
+.comments {
+  max-width: 508px;
+  min-height: 166px;
+  margin-bottom: 40px;
+}
+.submit-modal-btn {
+  width: 508px;
+}
+.modal-bottom-text {
+white-space: pre;
+margin-inline: 0;
+margin-top: -14px;
+height: 28px;
+text-align: left;
+padding-inline: 0;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .modal-block1-item-img {
+  background-image: url(../images/395tube-desk@2x.jpg);
+}
+  }
+}
+
