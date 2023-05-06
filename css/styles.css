@@ -54,6 +54,8 @@
 .close-modal-svg {
   border: 1.3px solid #141414;
   line-height: 100%;
+  color: rgba(20, 20, 20, 1);
+;
 }
 .modal-block1-list {
   list-style: none;
