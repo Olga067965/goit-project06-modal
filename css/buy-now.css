@@ -68,7 +68,7 @@
 }
 .modal-block1-item-img {
   margin-top: 26px;
-  background-image: url(../img/buy-now/395tube-mob.jpg);
+  background-image: url(./img/buy-now/395tube-mob.jpg);
 }
 .modal-block1-description {
   flex-direction: column;
@@ -225,7 +225,7 @@ input:valid {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .modal-block1-item-img {
-      background-image: url(../img/buy-now/395tube-mob@2x.jpg);
+      background-image: url(./img/buy-now/395tube-mob@2x.jpg);
     }
   }
 }
@@ -264,7 +264,7 @@ input:valid {
   .modal-block1-item-img {
     margin-top: 26px;
     margin-bottom: 25px;
-    background-image: url(../img/buy-now/395tube-tab.jpg);
+    background-image: url(./img/buy-now/395tube-tab.jpg);
   }
   .modal-block1-title {
     margin-top: 14px;
@@ -304,7 +304,7 @@ input:valid {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .modal-block1-item-img {
-      background-image: url(../img/buy-now/395tube-tab@2x.jpg);
+      background-image: url(./img/buy-now/395tube-tab@2x.jpg);
     }
   }
 }
@@ -316,7 +316,7 @@ input:valid {
     max-height: 694px;
   }
   .modal-block1-item-img {
-    background-image: url(../img/buy-now/395tube-desk.jpg);
+    background-image: url(./img/buy-now/395tube-desk.jpg);
   }
   .modal-block2 {
     height: 614px;
@@ -350,7 +350,7 @@ input:valid {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .modal-block1-item-img {
-      background-image: url(../img/buy-now/395tube-desk@2x.jpg);
+      background-image: url(./img/buy-now/395tube-desk@2x.jpg);
     }
   }
 }
